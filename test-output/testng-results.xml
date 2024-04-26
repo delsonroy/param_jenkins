@@ -5,12 +5,12 @@
       <![CDATA[Demo1 of testA...]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-04-26T19:35:04 GMT-04:00" name="Default suite" finished-at="2024-04-26T19:38:05 GMT-04:00" duration-ms="180714">
+  <suite started-at="2024-04-26T19:50:12 GMT-04:00" name="Default suite" finished-at="2024-04-26T19:53:13 GMT-04:00" duration-ms="181222">
     <groups>
     </groups>
-    <test started-at="2024-04-26T19:35:04 GMT-04:00" name="Default test" finished-at="2024-04-26T19:38:05 GMT-04:00" duration-ms="180714">
+    <test started-at="2024-04-26T19:50:12 GMT-04:00" name="Default test" finished-at="2024-04-26T19:53:13 GMT-04:00" duration-ms="181222">
       <class name="day21.Demo1">
-        <test-method signature="testA()[pri:0, instance:day21.Demo1@57cf54e1]" started-at="2024-04-26T19:35:04 GMT-04:00" name="testA" finished-at="2024-04-26T19:38:05 GMT-04:00" duration-ms="180660" status="FAIL">
+        <test-method signature="testA()[pri:0, instance:day21.Demo1@57cf54e1]" started-at="2024-04-26T19:50:12 GMT-04:00" name="testA" finished-at="2024-04-26T19:53:13 GMT-04:00" duration-ms="181150" status="FAIL">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 

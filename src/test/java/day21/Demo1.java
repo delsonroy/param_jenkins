@@ -17,7 +17,7 @@ public class Demo1 {
 	public void testA() throws Exception
 	{
         Reporter.log("Demo1 of testA...", true);    
-        WebDriver driver = new RemoteWebDriver(new URL("http://localhost:4444"), new EdgeOptions());
+        WebDriver driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), new EdgeOptions());
         driver.get("https://www.google.com");
         Thread.sleep(2000);
         driver.quit();
