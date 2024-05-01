@@ -8,17 +8,19 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Reporter;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class Demo1 {
 
-	
+	@Parameters({"gridURL"})
 	@Test
-	public void testA() throws Exception
+	public void testA(String gridURL) throws Exception
 	{
         Reporter.log("Demo1 of testA...", true);    
-        WebDriver driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), new EdgeOptions());
+        WebDriver driver = new RemoteWebDriver(new URL(gridURL), new EdgeOptions());
         driver.get("https://www.google.com");
+        System.out.println(driver.getTitle());
         Thread.sleep(2000);
         driver.quit();
 		
