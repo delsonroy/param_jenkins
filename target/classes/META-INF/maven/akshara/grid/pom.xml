@@ -13,6 +13,7 @@
          <configuration>
           <systemPropertyVariables>
             <gridURL>http://localhost:4444/wd/hub</gridURL>
+              <appURL>https://www.google.com</appURL>
           </systemPropertyVariables>
                        <suiteXmlFiles>
                    <suiteXmlFile>testng.xml</suiteXmlFile>

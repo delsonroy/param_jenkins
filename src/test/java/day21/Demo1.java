@@ -13,13 +13,13 @@ import org.testng.annotations.Test;
 
 public class Demo1 {
 
-	@Parameters({"gridURL"})
+	@Parameters({"gridURL", "appURL"})
 	@Test
-	public void testA(String gridURL) throws Exception
+	public void testA(String gridURL, String appURL) throws Exception
 	{
         Reporter.log("Demo1 of testA...", true);    
         WebDriver driver = new RemoteWebDriver(new URL(gridURL), new EdgeOptions());
-        driver.get("https://www.google.com");
+        driver.get(appURL);
         System.out.println(driver.getTitle());
         Thread.sleep(2000);
         driver.quit();
