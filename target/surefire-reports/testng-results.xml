@@ -5,12 +5,12 @@
       <![CDATA[Demo1 of testA...]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-05-01T00:35:39 GMT-04:00" name="Suite" finished-at="2024-05-01T00:36:24 GMT-04:00" duration-ms="44993">
+  <suite started-at="2024-05-01T01:57:35 GMT-04:00" name="Suite" finished-at="2024-05-01T01:58:29 GMT-04:00" duration-ms="54345">
     <groups>
     </groups>
-    <test started-at="2024-05-01T00:35:39 GMT-04:00" name="Test" finished-at="2024-05-01T00:36:24 GMT-04:00" duration-ms="44993">
+    <test started-at="2024-05-01T01:57:35 GMT-04:00" name="Test" finished-at="2024-05-01T01:58:29 GMT-04:00" duration-ms="54345">
       <class name="day21.Demo1">
-        <test-method signature="testA(java.lang.String,java.lang.String)[pri:0, instance:day21.Demo1@bd4dc25]" started-at="2024-05-01T00:35:39 GMT-04:00" name="testA" finished-at="2024-05-01T00:36:24 GMT-04:00" duration-ms="44923" status="PASS">
+        <test-method signature="testA(java.lang.String,java.lang.String)[pri:0, instance:day21.Demo1@7133da86]" started-at="2024-05-01T01:57:35 GMT-04:00" name="testA" finished-at="2024-05-01T01:58:29 GMT-04:00" duration-ms="54285" status="PASS">
           <params>
             <param index="0">
               <value>
